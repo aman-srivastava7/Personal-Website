@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aman Srivastava</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bulma.css">
+	<link rel="stylesheet" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&display=swap');
+	</style>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#0000ff">
+	<link rel="shortcut icon" href="/images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#0000ff">
+	<meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script src="code.js"></script>
+	<script>
+		$(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+</script>
+</head>
+<body>
+	<nav class="navbar is-black is-spaced">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item">
+					<img src="images/logo-white.png" alt="Logo">
+				</a>
+				<span class="navbar-burger burger" data-target="navbarMenuHeroB">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</div>
+			<div id="navbarMenuHeroB" class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item is-active" href="index.html">
+						Home
+					</a>
+					<a class="navbar-item" href="about.html">
+						About
+					</a>
+					<a class="navbar-item" href="work.html">
+						Work
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="hero is-large" id="home">
+		<div class="hero-body">
+			<div class="columns">
+				<div class="column is-one-third is-full-mobile">
+					<!-- <img src="images/bg.jpg" class="is-square"> -->
+				</div>
+				<div class="column is-two-thirds is-full-mobile">
+					<p class="title is-size-1-mobile">
+						Freelance Graphic and Interaction Designer with a focus on Branding, Identity, and Storytelling.
+					</p>  
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="footer">
+		<div class="columns is-desktop">
+			<div class="column is-2-desktop-only">
+			</div>
+			<div class="column is-2-desktop-only is-offset-4-touch">
+				<div class="image is-128x128">
+					<img src="images/logo.png">
+				</div>
+			</div>
+			<div class="column is-4-desktop-only has-text-centered" id="copyright">
+				<p class="title is-4">
+					© 2020 | Aman Srivastava
+				</p>
+			</div>
+			<div class="column is-2-desktop-only is-offset-4-touch">
+				<p class="content is-medium"><a href="">Facebook</a></p>
+				<p class="content is-medium"><a href="">Instagram</a></p>
+				<p class="content is-medium"><a href="">Behance</a></p>
+			</div>
+			<div class="column is-2-desktop-only">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
