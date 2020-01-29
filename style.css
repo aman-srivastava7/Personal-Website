@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('fonts/NeueHaasDisplay-Mediu.eot');
+  src: url('fonts/NeueHaasDisplay-Mediu.eot?#iefix') format('embedded-opentype'),
+  url('fonts/NeueHaasDisplay-Mediu.woff') format('woff'),
+  url('fonts/NeueHaasDisplay-Mediu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display';
+  src: url('fonts/NeueHaasDisplay-MediumItalic.eot');
+  src: url('fonts/NeueHaasDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/NeueHaasDisplay-MediumItalic.woff') format('woff'),
+  url('fonts/NeueHaasDisplay-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+}
+
+/*@font-face {
+  font-family: 'New York';
+  src: url('fonts/NewYorkSmall-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('fonts/NewYorkSmall-RegularItalic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('fonts/NewYorkSmall-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New York';
+  src: url('fonts/NewYorkSmall-BoldItalic.otf');
+  font-weight: bold;
+  font-style: italic;
+}*/
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: blue;
+}
+
+::selection {
+  color: #fff; 
+  background: blue;
+}
+
+.title-top {
+/*	margin-top: 20px;
+*/}
+
+figure {
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Neue Haas Grotesk Display';
+  font-weight: 700;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family:  'Cardo', serif;
+}
+
+html,body {
+  background-color: #fff;
+}
+
+#home {
+  background: url('images/bg.jpg');
+  background-size: 75vw;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+  #home {
+    background-size: 100vw;
+  }
+}
+
+.container {
+  padding: 2.5rem;
+}
+
+.title,
+.heading,
+.highlight,
+.modal-card-title {
+	font-family: 'Neue Haas Grotesk Display';
+  font-weight: 700;
+  /*padding-top: 20px;*/
+  color: blue;
+
+}
+
+
+.item div.box {
+  transition: all 0.5s ease;
+}
+
+.item div.box:hover {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+}
+
+
+#app{
+  margin-top: 20px;
+}
+
+.tags{
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  margin-top: 3rem;
+  /*  padding: 2rem 1.5rem 2rem;*/
+}
+
+#intro,
+#work,
+#resume {
+  margin-top: 5rem;
+}
+
+.workex {
+  margin-bottom: 1rem;
+}
+
+.education {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.entry {
+  margin-top: 2rem;
+}
+
+.post {
+  font-weight: bold;
+}
+
+.dates {
+  font-style: italic;
+}
+
+.contact {
+  background-color: blue;
+}
+
+.contact .title a{
+ color: #fff;
+ text-decoration: underline;
+ text-underline-position: under;
+}
+
+.contact .title a:hover{
+ color: #cfcfcf;
+ text-decoration: underline;
+ text-decoration-color: #cfcfcf;
+ text-underline-position: under;
+}
+
+#copyright { 
+  margin-top: auto;
