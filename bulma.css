@@ -3208,6 +3208,7 @@ fieldset[disabled] .button {
 
 .content.is-medium {
   font-size: 1.25rem;
+  letter-spacing: 0.02rem;
 }
 
 .content.is-large {

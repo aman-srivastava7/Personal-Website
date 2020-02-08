@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aman Srivastava</title>
+	<title>
+		Home – Aman Srivastava
+	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bulma.css">
 	<link rel="stylesheet" href="style.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="animate.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&display=swap');
 	</style>
@@ -21,23 +26,61 @@
 	<meta name="msapplication-TileColor" content="#0000ff">
 	<meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	<script src="code.js"></script>
+	<script src="code.js">
+	</script>
 	<script>
-		$(document).ready(function() {
+		var main = function() {
+	$('.nav-toggle').click(function() {
+		// $('nav').toggleClass('active');
+		if($('nav').attr('class') === 'active') {
+			$('nav').addClass('close').removeClass('active');
+		}
+		else {
+			$('nav').addClass('active').removeClass('close');
+		}
+	});
+};
 
-  // Check for click events on the navbar burger icon
-  $(".navbar-burger").click(function() {
+$(document).ready(main);
 
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      $(".navbar-burger").toggleClass("is-active");
-      $(".navbar-menu").toggleClass("is-active");
+// 		$(document).ready(function() {
 
-  });
-});
+//   // Check for click events on the navbar burger icon
+//   $(".navbar-burger").click(function() {
+
+//       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+//       $(".navbar-burger").toggleClass("is-active");
+//       $(".navbar-menu").toggleClass("is-active");
+
+//   });
+// });
 </script>
 </head>
 <body>
-	<nav class="navbar is-black is-spaced">
+
+	<header role="banner">
+		<div class="container">
+			<a href="/" class="logo">
+				<img src="images/logo-white.png" alt="Logo">
+
+			</a>
+
+			<span class="nav-toggle">&#9776;</span>
+	
+			<nav class="close" role="navigation">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Work</a>
+				<!-- <a href="#">Item</a> -->
+			</nav>
+		</div>
+	</header>
+
+	
+	
+
+
+	<!-- <nav class="navbar is-black is-spaced">
 		<div class="container">
 			<div class="navbar-brand">
 				<a class="navbar-item">
@@ -63,7 +106,9 @@
 				</div>
 			</div>
 		</div>
-	</nav>
+	</nav> -->
+
+
 
 	<section class="hero is-large" id="home">
 		<div class="hero-body">
@@ -89,7 +134,11 @@
 					<hr>
 				</div>
 				<div class="column is-one-quarter has-text-centered">
-					<p class="content is-medium"><strong>Intro</strong></p>
+					<p class="content is-medium">
+						<strong>
+							Intro
+						</strong>
+					</p>
 				</div>
 				<div class="column is-two-quarters">
 					<p class="content is-medium">
@@ -107,7 +156,11 @@
 					<hr>
 				</div>
 				<div class="column is-one-quarter has-text-centered">
-					<p class="content is-medium"><strong>Work</strong></p>
+					<p class="content is-medium">
+						<strong>
+							Work
+						</strong>
+					</p>
 				</div>
 				<div class="column is-two-quarters">
 					<p class="content is-medium">
@@ -258,7 +311,10 @@
 						<hr>
 					</div>
 					<div class="column is-one-quarter has-text-centered">
-						<p class="content is-medium"><strong>Résumé</strong>
+						<p class="content is-medium">
+							<strong>
+								Résumé
+							</strong>
 						</p>
 					</div>
 					<div class="column is-two-quarters">
@@ -398,39 +454,46 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="hero is-small contact has-text-centered">
-			<div class="hero-body">
-				<p class="title is-size-1-mobile"><a href="mailto:theamansrivastava@gmail.com">Get In Touch</a></p>
-			</div>
-		</section>
-		<footer class="footer">
-			<div class="columns is-mobile is-centered is-multiline">
-				<div class="column is-offset-2">
-					<div class="image is-128x128">
-						<img src="images/logo.png">
-					</div>
-				</div>
-				<div class="column" id="copyright">
-					<p class="title is-4 has-text-centered-touch">
-						© 2020 | Aman Srivastava
-					</p>
-				</div>
-				<div class="column">
-					<p class="content is-medium">
-						<a href="https://www.facebook.com/theamansrivastava">Facebook</a>
-					</p>
-					<p class="content is-medium">
-						<a href="https://www.instagram.com/amansrivastava/">Instagram</a>
-					</p>
-					<p class="content is-medium">
-						<a href="https://www.behance.net/amansrivastava/">Behance</a>
-					</p>
+		</div>
+	</section>
+	<section class="hero is-small contact has-text-centered">
+		<div class="hero-body">
+			<p class="title is-size-1-mobile">
+				<a href="mailto:theamansrivastava@gmail.com">
+					Get In Touch
+				</a>
+			</p>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="columns is-mobile is-centered is-multiline">
+			<div class="column is-offset-2">
+				<div class="image is-128x128 animated fadeInUp">
+					<img src="images/logo.png">
 				</div>
 			</div>
-		</footer>
-	</body>
-	</html>
+			<div class="column" id="copyright">
+				<p class="title is-4 has-text-centered-touch">
+					© 2020 | Aman Srivastava
+				</p>
+			</div>
+			<div class="column">
+				<p class="content is-medium">
+					<a href="https://www.facebook.com/theamansrivastava">
+						Facebook
+					</a>
+				</p>
+				<p class="content is-medium">
+					<a href="https://www.instagram.com/amansrivastava/">
+						Instagram
+					</a>
+				</p>
+				<p class="content is-medium">
+					<a href="https://www.behance.net/amansrivastava/">
+						Behance
+					</a>
+				</p>
+			</div>
 		</div>
 	</footer>
 </body>
