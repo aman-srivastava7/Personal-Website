@@ -29,58 +29,24 @@
 	<script src="code.js">
 	</script>
 	<script>
-		var main = function() {
-	$('.nav-toggle').click(function() {
-		// $('nav').toggleClass('active');
-		if($('nav').attr('class') === 'active') {
-			$('nav').addClass('close').removeClass('active');
-		}
-		else {
-			$('nav').addClass('active').removeClass('close');
-		}
-	});
-};
+		
 
-$(document).ready(main);
+		$(document).ready(function() {
 
-// 		$(document).ready(function() {
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
 
-//   // Check for click events on the navbar burger icon
-//   $(".navbar-burger").click(function() {
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
 
-//       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-//       $(".navbar-burger").toggleClass("is-active");
-//       $(".navbar-menu").toggleClass("is-active");
-
-//   });
-// });
+  });
+});
 </script>
 </head>
 <body>
 
-	<header role="banner">
-		<div class="container">
-			<a href="/" class="logo">
-				<img src="images/logo-white.png" alt="Logo">
-
-			</a>
-
-			<span class="nav-toggle">&#9776;</span>
-	
-			<nav class="close" role="navigation">
-				<a href="#">Home</a>
-				<a href="#">About</a>
-				<a href="#">Work</a>
-				<!-- <a href="#">Item</a> -->
-			</nav>
-		</div>
-	</header>
-
-	
-	
-
-
-	<!-- <nav class="navbar is-black is-spaced">
+	<nav class="navbar is-black is-spaced">
 		<div class="container">
 			<div class="navbar-brand">
 				<a class="navbar-item">
@@ -106,7 +72,7 @@ $(document).ready(main);
 				</div>
 			</div>
 		</div>
-	</nav> -->
+	</nav>
 
 
 

@@ -7172,8 +7172,10 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:focus-within,
 .navbar-link:hover,
 .navbar-link.is-active {
-  background-color: #fafafa;
-  color: #3273dc;
+  /*background-color: #fafafa;
+  color: #3273dc;*/
+  background-color: #000;
+  color: #fff;
 }
 
 .navbar-item {
@@ -7262,7 +7264,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     display: none;
   }
   .navbar-menu {
-    background-color: white;
+    background-color: black;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0;
   }

@@ -18,17 +18,17 @@
 }
 
 ::-moz-selection { /* Code for Firefox */
-  	color: #fff;
-  	background: blue;
+	color: #fff;
+	background: blue;
 }
 
 ::selection {
-  	color: #fff; 
-  	background: blue;
+	color: #fff; 
+	background: blue;
 }
 
 .title-top {
-/*	margin-top: 20px;*/
+	/*	margin-top: 20px;*/
 }
 
 figure {
@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Neue Haas Grotesk Display';
-	font-weight: 700;
+	font-weight: 600;
 }
 
 body,
@@ -60,7 +60,7 @@ body {
 
 #home {
 	background: url('images/bg.jpg');
-	background-size: 75vw;
+	background-size: 70vw;
 	background-repeat: no-repeat;
 }
 
@@ -74,113 +74,13 @@ body {
 	padding: 2.5rem;
 }
 
-/* prabhav's nav */
-
-header[role="banner"] {
-	background: black;
-	color: white;
-}
-
-header[role="banner"] .container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
-nav[role="navigation"] a {
-	color: white;
-	padding: 0.5rem 0.75rem;
-	font-size: 1em;
-}
-
-nav[role="navigation"] a:hover {
-	text-decoration-color: white;
-}
-
-nav[role="navigation"] a.active {
-	text-decoration: underline;
-
-}
-
-.logo img {
-	max-height: 7rem;
-}
-
-.nav-toggle {
-	display: none;
-}
-
-@media screen and (max-width: 650px) {
-	.container {
-		display: block;
-	}
-
-	.nav-toggle {
-		display: block;
-		position: fixed;
-		right: 20px;
-		top: 20px;
-		z-index: 101;
-		cursor: pointer;
-		color: #fa5c5c;
-	}
-	
-	nav {
-		/*visibility: hidden;*/
-		position: fixed;
-		width: 100vw;
-		height: 100vh;
-		background: rgba(20,20,20,0.9);
-		z-index: 100;
-		/* padding-top: 25vh; */
-		animation-name: fadeOut;
-		animation-duration: 0.4s;
-	}
-	
-	nav.active {
-		visibility: visible;
-		animation-name: fadeIn;
-		animation-duration: 0.4s;
-		/*animation-iteration-count: 1;*/
-	}
-	
-	nav.close {
-		/*animation-name: fadeOut;
-		animation-duration: 0.4s;
-		animation-iteration-count: 1;*/
-		opacity: 0;
-	}
-	
-	/*@keyframes fadeOut {
-		0% { opacity: 1; }
-		100% { opacity: 0; }
-	}*/
-	
-	@keyframes fadeIn {
-		0% { opacity: 0; }
-		100% { opacity: 1; }
-	}
-	
-	nav a {
-		display: block;
-		text-align: center;
-		font-size: 2.5rem;
-		margin-bottom: 1rem;
-		color: #fafafa;
-	}
-	
-}
-
-
-/* end prabhav nav */
 
 .title,
 .heading,
 .highlight,
 .modal-card-title {
 	font-family: 'Neue Haas Grotesk Display';
-	font-weight: 700;
+	font-weight: 600;
 	/*padding-top: 20px;*/
 	color: blue;
 
@@ -290,4 +190,78 @@ nav[role="navigation"] a.active {
 .music {
 	margin-bottom: 5rem;
 	margin-top: 7rem !important;
+}
+
+#workhead {
+	background: url('images/work/simplex/simplex.png');
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+.project-top{
+	margin-bottom: 10rem;
+}
+
+.project-nav,
+.project-nav a,
+.project-nav .title{
+	color: black;
+	text-decoration-color: black;
+}
+
+.has-image-centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image.is-512x512 {
+	height: 512px;
+	width: 512px;
+}
+
+ol {
+	font-size: 1.25rem;
+	letter-spacing: 0.02rem;
+}
+
+.herotext{
+	margin-top: 10rem;
+	margin bottom: 10rem;
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 300px; /* height of carousel */
+  margin-right: 10px;
+}
+
+/* no circle */
+.flickity-button {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
+/* hide disabled button */
+.flickity-button:disabled {
+  display: none;
+}
+
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: -22px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
 }
