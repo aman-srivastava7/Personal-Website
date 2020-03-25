@@ -286,8 +286,11 @@ ol {
 
 .carousel-cell {
   width: 100%; /* full width */
-  height: 300px; /* height of carousel */
+  height: 70vh; /* height of carousel */
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* no circle */
@@ -325,4 +328,8 @@ ol {
 	/* height: 800px !important; */
 	height: 70vw !important;
 	/* height: 100% !important; */
+}
+
+.main-carousel{
+	margin-top: 10rem;
 }
