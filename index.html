@@ -61,6 +61,9 @@
 </script>
 </head>
 <body>
+  <section id="canvas">
+    <div class="circle"></div>
+  </section>
   <nav class="navbar is-black is-spaced">
     <div class="container">
       <div class="navbar-brand">
@@ -321,6 +324,22 @@ id="resume">
       <a href="https://www.facebook.com/theamansrivastava">Facebook</a> <a href="https://www.instagram.com/amansrivastava/">Instagram</a> <a href="https://www.behance.net/amansrivastava/">Behance</a>
     </article>
   </footer>  
+  <script type="text/javascript">
+    // http://ahrengot.com/tutorials/greensock-javascript-animation
+
+var $circle = $('.circle');
+
+function moveCircle(e) {
+  TweenLite.to($circle, 0.3, {
+    css: {
+      left: e.pageX,
+      top: e.pageY
+    }
+  });
+}
+
+$(window).on('mousemove', moveCircle);
+  </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

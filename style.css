@@ -64,8 +64,21 @@ body {
 	background-repeat: no-repeat;
 }
 
-*{
-	cursor: url(images/cursor1.png),auto;
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20%;
+  left: 20%;
+  margin: -50px 0 0 -50px;
+  background: blue;
+  border-radius: 80%;
+  backface-visibility: hidden;
+  mix-blend-mode: screen;
+}
+
+body{
+	/*cursor: url('images/cursor2.png'),default;*/
 }
 
 @media screen and (max-width: 650px) {
