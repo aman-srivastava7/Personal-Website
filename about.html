@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="bulma.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js">
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
@@ -70,11 +72,11 @@
 		</div>
 	</nav>
 
-	<section class="hero is-large" id="about">
+	<section class="hero is-large" id="about" data-aos="fade-down">
 		<div class="hero-body">
 			<div class="columns is full">
 				<div class="column is-full is-centered">
-					<p class="title is-size-1-mobile has-text-centered about">
+					<p class="title is-size-1-mobile has-text-centered about" data-aos="fade-up" data-aos-delay="300">
 						About <i>Me</i>.
 					</p>  
 				</div>
@@ -84,17 +86,17 @@
 	<section class="hero is-large">
 		<div class="hero-body">
 			<div class="columns is full">
-				<div class="column is-4-desktop is-half-tablet is-offset-2-desktop">
-					<div class="image is-5by4 animated fadeInUpBig">
+				<div class="column is-4-desktop is-half-tablet is-offset-2-desktop" data-aos="fade-right" data-aos-anchor-placement="top-center">
+					<div class="image is-5by4">
 						<img src="images/about.jpeg">
 					</div>
 				</div>
 				<div class="column is-4-desktop is-half-tablet">
-					<div class="box aboutbox animated fadeInDownBig">
-						<p class="title is-size-1 is-size-1-mobile animated fadeInDownBig">
+					<div class="box aboutbox" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
+						<p class="title is-size-1 is-size-1-mobile" >
 							“Crocs™ are the physical manifestation of Comic Sans”
 						</p>
-						<p class="content is-medium animated fadeInDownBig">
+						<p class="content is-medium">
 							-Aman Srivastava, 2016
 						</p>
 					</div>
@@ -106,7 +108,7 @@
 	</section>
 	<section>
 		<div class="columns is-centered blurb">
-			<div class="column is-half">
+			<div class="column is-half" data-aos="fade-up">
 				<p class="content is-medium">
 					Hello. I'm Aman Srivastava and I'm a 22 year old freelance graphic and interaction designer. I completed my Undergraduate studies in Interaction Design from <a href="https://www.thedesignvillage.org">The Design Village.</a> I am constantly trying to better my skill set by taking up numerous freelance projects and working for companies, institutions and organisations that provide me with ample exposure and an opportunity to learn. I've had a passion for design since my school days and wish to continue in this field, especially interface and digital design, branding, and minimalism.
 					<br><br>
@@ -117,7 +119,7 @@
 	</section>
 	<section>
 		<div class="columns music">
-			<div class="column is-4 is-offset-1">
+			<div class="column is-4 is-offset-1" data-aos="fade-right" data-aos-anchor-placement="top-center">
 				<p class="title is-size-1">
 					Listen Up.
 				</p>
@@ -133,7 +135,7 @@
 			</div>
 			<div class="column is-size-2">
 			</div>
-			<div class="column is-4">
+			<div class="column is-4" data-aos="fade-left" data-aos-anchor-placement="top-center">
 				<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/apoo-mixtape-vol-7/pl.u-E6drFqldoJb?app=music">
 				</iframe>
 			</div>
@@ -184,5 +186,9 @@
       <a href="https://www.facebook.com/theamansrivastava">Facebook</a> <a href="https://www.instagram.com/amansrivastava/">Instagram</a> <a href="https://www.behance.net/amansrivastava/">Behance</a>
     </article>
   </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

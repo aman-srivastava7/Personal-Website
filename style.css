@@ -64,6 +64,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+*{
+	cursor: url(images/cursor1.png),auto;
+}
+
 @media screen and (max-width: 650px) {
 	#home {
 		background-size: 100vw;
@@ -246,12 +250,6 @@ body {
 	margin-top: 7rem !important;
 }
 
-#workhead {
-	background: url('images/work/simplex/simplex.png');
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	height: 50vh;
-}
 
 .project-top{
 	margin-bottom: 10rem;
@@ -354,6 +352,13 @@ iframe {
 	
 }
 
+#workhead {
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+
 @media screen and (max-width: 1200px) {
 	.project-nav .title.is-2 {
 		font-size: 1.5rem;
@@ -362,6 +367,13 @@ iframe {
 	.project-nav .fa-2x {
 		font-size: 1.5rem;
 	}
+
+	#workhead {
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 40vh;
+	}
 }
 
 @media screen and (max-width: 769px) {
@@ -369,5 +381,12 @@ iframe {
 		margin-left: 8.333333% !important;
 		margin-right: 8.333333% !important;
 	}	
+
+	#workhead {
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50vh;
+	}
 }
 
