@@ -65,16 +65,17 @@ body {
 }
 
 .circle {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 20%;
-  left: 20%;
-  margin: -50px 0 0 -50px;
-  background: blue;
-  border-radius: 80%;
-  backface-visibility: hidden;
-  mix-blend-mode: exclusion;
+	position: absolute;
+	clip-path: polygon(0 35%, 35% 35%, 35% 0, 65% 0%, 65% 35%, 100% 35%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 35% 65%, 0 65%);
+	width: 300px;
+	height: 300px;
+	top: 20%;
+	left: 20%;
+	margin: -150px 0 0 -150px;
+	background: blue;
+	border-radius: 0%;
+	backface-visibility: hidden;
+	mix-blend-mode: difference;
 }
 
 body{
@@ -304,14 +305,14 @@ ol {
 }
 
 .carousel-cell {
-  width: 100%; 
-  /* full width */
-  /* height: 70vh; height of carousel */
-  height: 100vh; /* height of carousel */
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 100%; 
+	/* full width */
+	/* height: 70vh; height of carousel */
+	height: 100vh; /* height of carousel */
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .main-carousel.oldfolio img {
@@ -320,32 +321,32 @@ ol {
 
 /* no circle */
 .flickity-button {
-  background: transparent;
+	background: transparent;
 }
 /* big previous & next buttons */
 .flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
+	width: 100px;
+	height: 100px;
 }
 /* icon color */
 .flickity-button-icon {
-  fill: white;
+	fill: white;
 }
 /* hide disabled button */
 .flickity-button:disabled {
-  display: none;
+	display: none;
 }
 
 /* position dots up a bit */
 .flickity-page-dots {
-  bottom: -22px;
+	bottom: -22px;
 }
 /* dots are lines */
 .flickity-page-dots .dot {
-  height: 4px;
-  width: 40px;
-  margin: 0;
-  border-radius: 0;
+	height: 4px;
+	width: 40px;
+	margin: 0;
+	border-radius: 0;
 }
 
 
@@ -387,6 +388,13 @@ iframe {
 		background-repeat: no-repeat;
 		height: 40vh;
 	}
+
+	/*.circle {
+
+		width: 200px;
+		height: 200px;
+		margin: -100px 0 0 -100px;
+	}*/
 }
 
 @media screen and (max-width: 769px) {
@@ -400,6 +408,13 @@ iframe {
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 50vh;
+	}
+
+	.circle {
+		
+		width: 200px;
+		height: 200px;
+		margin: -100px 0 0 -100px;
 	}
 }
 
