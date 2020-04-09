@@ -60,7 +60,9 @@
 });
 </script>
 </head>
+<!-- <body onmousemove="m(event)"> -->
 <body>
+  <!-- <div id="box" style="background-color:#990000; width:20px; height:20px; position:absolute;"></div> -->
   <section id="canvas">
     <div class="circle"></div>
   </section>
@@ -324,21 +326,29 @@ id="resume">
       <a href="https://www.facebook.com/theamansrivastava">Facebook</a> <a href="https://www.instagram.com/amansrivastava/">Instagram</a> <a href="https://www.behance.net/amansrivastava/">Behance</a>
     </article>
   </footer>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
   <script type="text/javascript">
+
     // http://ahrengot.com/tutorials/greensock-javascript-animation
 
-var $circle = $('.circle');
+    $( document ).ready(function() {
+      console.log( "ready!" );
 
-function moveCircle(e) {
-  TweenLite.to($circle, 0.3, {
-    css: {
-      left: e.pageX,
-      top: e.pageY
-    }
-  });
-}
+      var $circle = $('.circle');
 
-$(window).on('mousemove', moveCircle);
+      function moveCircle(e) {
+        TweenLite.to($circle, 0.3, {
+          css: {
+            left: e.pageX,
+            top: e.pageY
+          }
+        });
+      }
+
+      $(window).on('mousemove', moveCircle);
+    });
+
   </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>

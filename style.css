@@ -74,7 +74,7 @@ body {
   background: blue;
   border-radius: 80%;
   backface-visibility: hidden;
-  mix-blend-mode: screen;
+  mix-blend-mode: exclusion;
 }
 
 body{
