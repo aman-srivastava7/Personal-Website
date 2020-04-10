@@ -95,8 +95,8 @@ id="home">
     <div class="column is-one-third is-full-mobile">
       <!-- <img src="images/bg.jpg" class="is-square"> -->
     </div>
-    <div class="column is-two-thirds is-full-mobile"data-aos="fade-left">
-      <p class="title is-size-1-mobile" >Freelance Graphic and Interaction Designer with a focus on Branding, Identity, and Storytelling.</p>
+    <div class="column is-two-thirds is-full-mobile home"data-aos="fade-left">
+      <p class="title" >Freelance Graphic and Interaction Designer with a focus on Branding, Identity, and Storytelling.</p>
     </div>
   </div>
 </div>
@@ -347,6 +347,11 @@ id="resume">
       }
 
       $(window).on('mousemove', moveCircle);
+
+      $(window).scroll(function(){
+    $(".circle").css("opacity", 1 - $(window).scrollTop() / 798);
+  });
+
     });
 
   </script>

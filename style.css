@@ -56,6 +56,10 @@ textarea {
 html,
 body {
 	background-color: #fff;
+	width: 100%
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
 }
 
 #home {
@@ -258,10 +262,14 @@ body{
 	box-shadow: none;
 }
 
-.blurb,
-.music {
+.blurb {
 	margin-bottom: 5rem;
 	margin-top: 7rem !important;
+}
+
+.music {
+	margin-bottom: 5rem;
+	margin-top:  5rem;
 }
 
 
@@ -389,12 +397,9 @@ iframe {
 		height: 40vh;
 	}
 
-	/*.circle {
-
-		width: 200px;
-		height: 200px;
-		margin: -100px 0 0 -100px;
-	}*/
+	.home .title{
+		font-size: 4rem !important; 
+	}
 }
 
 @media screen and (max-width: 769px) {
@@ -411,10 +416,15 @@ iframe {
 	}
 
 	.circle {
-		
-		width: 200px;
-		height: 200px;
-		margin: -100px 0 0 -100px;
+		display: none;
+	}
+
+	.music iframe{
+		height: 450px;
+	}
+
+	.home .title {
+		font-size: 3rem !important;
 	}
 }
 
