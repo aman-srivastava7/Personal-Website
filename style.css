@@ -403,7 +403,7 @@ iframe {
 }
 
 @media screen and (max-width: 769px) {
-	.is-offset-1, .is-offset-5 {
+	.is-offset-1, .is-offset-2, .is-offset-5, .is-offset-6, .is-offset-7 {
 		margin-left: 8.333333% !important;
 		margin-right: 8.333333% !important;
 	}	
