@@ -426,5 +426,9 @@ iframe {
 	.home .title {
 		font-size: 3rem !important;
 	}
+
+	.title.is-heading{
+		font-size: 3rem;
+	}
 }
 
