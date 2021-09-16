@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is-offs",
+				"is-offset-1\t style.css"
+			],
+			[
+				"has",
+				"has-text-centered\t bulma.css"
+			],
+			[
+				"fade",
+				"fade-right"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"mode",
+				"modesphere3.jpg"
+			],
+			[
+				"is-offes",
+				"is-offset-1\t style.css"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"is-size-2-",
+				"is-size-2-tablet\t bulma.css"
+			],
+			[
+				"overf",
+				"overflow-x\tproperty"
+			],
+			[
+				"container",
+				"container\t bulma.css"
+			],
+			[
+				"clip",
+				"clip-path\tproperty"
+			],
+			[
+				"top",
+				"top〔value〕"
+			],
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"sim",
+				"simplex1.jpg"
+			],
+			[
+				"url",
+				"url()\tbackground-image"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"is3",
+				"is-3by2\t bulma.css"
+			],
+			[
+				"is",
+				"is-vertical\t bulma.css"
+			],
+			[
+				"is-one-third",
+				"is-one-third-desktop\t bulma.css"
+			],
+			[
+				"inlin",
+				"inline-flex\tdisplay"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"is-size",
+				"is-size-1\t bulma.css"
+			],
+			[
+				"is-4-de",
+				"is-4-desktop\t bulma.css"
+			],
+			[
+				"del",
+				"delay-1s\t animate.css"
+			],
+			[
+				"is-offset-one",
+				"is-offset-one-third\t bulma.css"
+			],
+			[
+				"full",
+				"is-fullwidth\t bulma.css"
+			],
+			[
+				"is-mo",
+				"is-offset-4-mobile\t bulma.css"
+			],
+			[
+				"is-4-des",
+				"is-4-desktop-only\t bulma.css"
+			],
+			[
+				"is-2-desktop",
+				"is-2-desktop-only\t bulma.css"
+			],
+			[
+				"text-de",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"her",
+				"hero-body"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"id",
+				"id=〔attribute〕"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"text-dec",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"class",
+				"class=\"title"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"has-back",
+				"has-background-light\t bulma.min.css"
+			],
+			[
+				"has-ba",
+				"has-background-primary\t bulma.min.css"
+			],
+			[
+				"has-b",
+				"has-background-light\t bulma.min.css"
+			],
+			[
+				"fadeInUp",
+				"fadeInUpBig\t animate.css"
+			],
+			[
+				"zoom",
+				"zoomInUp\t animate.css"
+			],
+			[
+				"console",
+				"console.log($(this).data('id"
+			],
+			[
+				"da",
+				"data-lang"
+			],
+			[
+				"lan",
+				"languages"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"tabs",
+				"tabs\t bulma.css"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"img",
+				"is-96x96\"><img"
+			],
+			[
+				"Spec",
+				"Spectre"
+			],
+			[
+				"Psy",
+				"Psy"
+			],
+			[
+				"transition",
+				"transition\tproperty"
+			],
+			[
+				"Ele",
+				"Electric"
+			],
+			[
+				"Éle",
+				"Électrik"
+			],
+			[
+				"Roc",
+				"Roche"
+			],
+			[
+				"get",
+				"getJSON〔function〕"
+			],
+			[
+				"is-m",
+				"is-marginless\t bulma.css"
+			],
+			[
+				"is-12",
+				"is-128x128\t bulma.css"
+			],
+			[
+				"is-one",
+				"is-one-third\t bulma.css"
+			],
+			[
+				"has-te",
+				"has-text-centered\t bulma.css"
+			],
+			[
+				"is-zi",
+				"is-size-1\t bulma.css"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"document",
+				"documentstab"
+			],
+			[
+				"is-full",
+				"is-fullwidth\t bulma.css"
+			],
+			[
+				"is-cen",
+				"is-centered\t bulma.css"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"has-text-s",
+				"has-text-weight-semibold\t bulma.css"
+			],
+			[
+				"is-two",
+				"is-two-thirds\t bulma.css"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"text",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"image",
+				"background-image\tproperty"
+			],
+			[
+				"f",
+				"fef204"
+			],
+			[
+				"overflow",
+				"overflow-y\tproperty"
+			],
+			[
+				"backgroun",
+				"background-color\tproperty"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"content",
+				"align-content\tproperty"
+			],
+			[
+				"rgb",
+				"rgb()\tbackground"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"rb",
+				"rgba()\tbackground"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"trans",
+				"transform-style\tproperty"
+			],
+			[
+				"transiti",
+				"transition-duration\tproperty"
+			],
+			[
+				"jus",
+				"justify-all\ttext-align"
+			],
+			[
+				"tran",
+				"transition-duration\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"border-c",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jquery",
+				"Snippet:  Add jquery "
+			],
+			[
+				"Snippet: js",
+				"Snippet: JS - For loop"
+			],
+			[
+				"Snippet: read",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reindi",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: ",
+				"Snippet:  Add jquery "
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/aman/Dropbox (Personal)/Personal Website/about.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/index.html",
+		"/Library/Application Support/Adobe/CEP/extensions/com.adobe.ccx.start-2.2.1/js/locales/be.bundle.js",
+		"/Users/aman/Dropbox (Personal)/Personal Website/saf.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/saf19in20.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/c4d.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/work.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/equilibrium.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/oldfolio.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/purpose.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/nazariya.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/teammate.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/periods.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/modesphere.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/simplex.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/covid.html",
+		"/Applications/Maxon Cinema 4D R21/resource/modules/c4dplugin/c4d_symbols.h",
+		"/Users/aman/Dropbox (Personal)/Personal Website/style.css",
+		"/Users/aman/Dropbox (Personal)/Personal Website/flickity.css",
+		"/Users/aman/Dropbox (SAF)/SAF Team/SAF 2020/Design/19in20 website/animate.css",
+		"/Users/aman/Dropbox (Personal)/Personal Website/header.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/projects.json",
+		"/Users/aman/Dropbox (Personal)/Personal Website/work.json",
+		"/Users/aman/Dropbox (Personal)/Personal Website/saf2019.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/work/saf2019.html",
+		"/Users/aman/Dropbox (Personal)/Personal Website/CNAME",
+		"/Users/aman/Documents/Portfolio 2020/Personal Website/bulma.css",
+		"/Users/aman/Documents/Portfolio 2020/Personal Website/style.css",
+		"/Users/aman/Documents/Portfolio 2020/Personal Website/index.html",
+		"/Users/aman/Documents/Portfolio 2020/Personal Website/code.js",
+		"/Users/aman/Documents/Web Advance/New Project/index.html",
+		"/Users/aman/Downloads/Sarthak Tayla/Aman edit/index.html",
+		"/Users/aman/Downloads/Sarthak Tayla/Aman edit/articles.json",
+		"/Users/aman/Downloads/Sarthak Tayla/Aman edit/style.css",
+		"/Users/aman/Downloads/Sarthak Tayla/Aman edit/pokedex.json",
+		"/Users/aman/Downloads/Sarthak Tayla/index.html",
+		"/Library/Application Support/Adobe/Acrobat DC AMT/AMT/application.xml",
+		"/Users/aman/Documents/Web Advance/Pokedex/pokedex.json",
+		"/Users/aman/Downloads/noun_cart_2345547.svg",
+		"/Users/aman/Desktop/appmanifest_1074760.acf",
+		"/Users/aman/Documents/Wordpress/Week6/wp-admin/js/customize-controls.min.js",
+		"/Users/aman/Downloads/Player-Editor 07 v6.0.3.1/bats.xml",
+		"/Users/aman/Downloads/Player-Editor 07 v6.0.3.5/bats.xml",
+		"/Users/aman/Dropbox/MUNQSMUN 2017/Logos/Logo Compress.svg",
+		"/Users/aman/Documents/Wordpress/perfect-portfolio/inc/template-functions.php",
+		"/Users/aman/Documents/Wordpress/perfect-portfolio/footer.php",
+		"/private/var/folders/dx/v9fj9x1j0wv3sw4xrpxm5bv80000gn/T/fz3temp-2/style.css",
+		"/private/var/folders/dx/v9fj9x1j0wv3sw4xrpxm5bv80000gn/T/fz3temp-2/single-rara-portfolio.php",
+		"/private/var/folders/dx/v9fj9x1j0wv3sw4xrpxm5bv80000gn/T/fz3temp-2/footer.php",
+		"/private/var/folders/dx/v9fj9x1j0wv3sw4xrpxm5bv80000gn/T/fz3temp-2/index.php",
+		"/Users/aman/Documents/Wordpress/wp-config.php",
+		"/Users/aman/Desktop/Web Advance/Pokedex/animate.css",
+		"/Users/aman/Desktop/Web Advance/Pokedex/style.css",
+		"/Users/aman/Desktop/Web Advance/Pokedex/bulma.css",
+		"/Users/aman/Desktop/Web Advance/Pokedex/index.html",
+		"/Users/aman/Desktop/Web Advance/Pokedex/pokedex.json",
+		"/Users/aman/Documents/Wordpress/Week6/wp-config.php",
+		"/Users/aman/Desktop/Web Advance/New Project/bulma.css",
+		"/Users/aman/Desktop/Web Advance/New Project/index.html",
+		"/Users/aman/Library/Application Support/Sublime Text 3/Packages/User/bulma.sublime-snippet",
+		"/Users/aman/Library/Application Support/Sublime Text 3/Packages/User/jquery.sublime-snippet",
+		"/Users/aman/Desktop/Web Advance/New Project/jsdemo.html",
+		"/Users/aman/Desktop/Web Advance/index.html",
+		"/Users/aman/Documents/Wordpress/Week6/wp-content/themes/Aman/style.css",
+		"/Users/aman/Documents/Wordpress/Week6/wp-content/themes/Aman/page-full.php",
+		"/Users/aman/Documents/Wordpress/Week6/wp-content/themes/Aman-child/style.css",
+		"/Users/aman/Documents/Wordpress/Week6/wp-content/themes/Aman-child/functions.php",
+		"/Users/aman/Desktop/Web Advance/ROCKY/music.html",
+		"/Users/aman/Desktop/Web Advance/ROCKY/index.html",
+		"/Users/aman/Desktop/Web Advance/ROCKY/style.css",
+		"/Users/aman/Library/Application Support/Sublime Text 3/Packages/CSS/css_completions.py",
+		"/Users/aman/Desktop/homework/style.css",
+		"/Users/aman/Desktop/homework/index.html",
+		"/Users/aman/Desktop/homework/music.html",
+		"/private/var/folders/dx/v9fj9x1j0wv3sw4xrpxm5bv80000gn/T/fz3temp-2/wp-config.php",
+		"/Users/aman/Desktop/homework/untitled folder/style.css",
+		"/Users/aman/Desktop/homework/untitled folder/index.html",
+		"/Users/aman/Documents/GitHub/aman/about/index.html",
+		"/Users/aman/Documents/GitHub/aman/assets/css/style.css",
+		"/Users/aman/Documents/GitHub/aman/assets/css/about.css",
+		"/Users/aman/Downloads/aman-2/about/index.html",
+		"/Users/aman/Downloads/aman/about/index.html",
+		"/Users/aman/Downloads/aman/assets/css/style.css",
+		"/Users/aman/Downloads/aman/assets/css/about.css",
+		"/Users/aman/Downloads/wordpress/wp-config.php",
+		"/Users/aman/Downloads/n26_user_data.json",
+		"/Users/aman/Downloads/SearchUIEffects/index.html",
+		"/Users/aman/Documents/In Terms of Performance — William Kentridge.html",
+		"/Users/aman/Documents/In Terms of Performance — William Kentridge.webarchive"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalwebsite.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

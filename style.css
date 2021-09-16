@@ -17,6 +17,18 @@
 	font-style: italic;
 }
 
+@font-face {
+	font-family: 'SFPro Text';
+	src: url('fonts/SanFranciscoText-Light.ttf') format('truetype');
+	font-style: light;
+}
+
+@font-face {
+	font-family: 'SFPro Display';
+	src: url('fonts/SanFranciscoDisplay-Bold.ttf') format('truetype');
+	font-style: bold;
+}
+
 ::-moz-selection { /* Code for Firefox */
 	color: #fff;
 	background: blue;
