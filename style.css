@@ -20,7 +20,7 @@
 @font-face {
 	font-family: 'SFPro Text';
 	src: url('fonts/SanFranciscoText-Light.ttf') format('truetype');
-	font-style: light;
+	font-style: normal;
 }
 
 @font-face {
